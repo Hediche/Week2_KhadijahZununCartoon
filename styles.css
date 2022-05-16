@@ -1,0 +1,110 @@
+
+body{
+    text-align: center;
+    background-color: blanchedalmond;
+    
+}
+h1{
+    margin-top: 1em;
+   color:rgb(51, 116, 236);
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+h2{
+  margin: 30px;
+  color: yellowgreen;
+}
+h4{
+  margin-top: 50px;
+}
+.flex-container {
+    display: flex;
+    flex-direction: row;
+  }
+.circle_fd{
+    border-radius: 30%;
+    width: 520px;
+    height: 400px;
+    background-color:antiquewhite;
+    text-align:center ;
+    border: 3px solid lightskyblue;
+    margin: 50px 90px 50px 10px;
+}
+.circle_language{
+    border-radius: 30%;
+    width: 520px;
+    height: 400px;
+    background-color:antiquewhite;
+    text-align:center ;
+    border: 3px solid lightskyblue;
+    margin: 50px 10px 50 90px;
+}
+.skillimg{
+    width:60px;
+    height: auto;
+    margin: 20px;
+}
+.round{
+    border-radius: 100%;
+    width:60px;
+    height: 60px;
+}
+.meskills , .meimg,.grad-brainnest{
+border-radius: 100%;
+width: 250px;
+height: auto;
+}
+.meskills{
+  animation-name: rotate;
+  animation-duration: 0.1s;
+  animation-iteration-count: 200;
+}
+@keyframes rotate {
+  0% {
+    transform: rotate(0);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.rotate {
+    animation: rotation 3s;
+  }
+  @keyframes rotation {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(359deg);
+    }
+  }
+  .linear {
+    animation-timing-function: linear;
+  }
+  .infinite {
+    animation-iteration-count: 7;
+  }
+
+  .column{
+    display: flex;
+    flex-direction: column;
+  }
+  .row{
+    display: flex;
+    flex-direction: row;
+    margin: 50px;
+    flex: 1;
+  }
+
+  a {
+    text-decoration: none;
+    color: coral;
+  }
+
+.title{
+  font-size: 4rem;
+  color: chocolate;
+}
+footer{
+  margin-bottom: 30px;
+}
