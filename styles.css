@@ -28,6 +28,7 @@ h4{
     text-align:center ;
     border: 3px solid lightskyblue;
     margin: 50px 90px 50px 10px;
+    flex:auto;
 }
 .circle_language{
     border-radius: 30%;
@@ -37,6 +38,7 @@ h4{
     text-align:center ;
     border: 3px solid lightskyblue;
     margin: 50px 10px 50 90px;
+    flex:auto;
 }
 .skillimg{
     width:60px;
