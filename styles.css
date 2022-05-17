@@ -17,6 +17,7 @@ h2{
 }
 h4{
   margin: 30px;
+  padding-buttom:20px;
 }
 .flex-container  {
     display: flex;
@@ -30,7 +31,7 @@ h4{
     background-color:antiquewhite;
     text-align:center ;
     border: 3px solid lightskyblue;
-    margin:20px;
+    margin:30px;
 }
 .circle_language{
     border-radius: 40% 3% 3% 3%;
@@ -39,7 +40,7 @@ h4{
     background-color:antiquewhite;
     text-align:center ;
     border: 3px solid lightskyblue;
-    margin:20px;
+    margin:30px;
 }
 .skillimg{
     width:60px;
