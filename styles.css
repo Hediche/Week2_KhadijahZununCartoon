@@ -88,7 +88,7 @@ height: auto;
     }
   }
   .linear {
-    animation-timing-function:ease-out;
+    animation-timing-function:linear;
   }
   .infinite {
     animation-iteration-count: 10;
@@ -98,11 +98,12 @@ height: auto;
     display: flex;
     flex-direction: column;
     flex-shrink: 1;
+    gap: 2em;
   }
   .row{
     display: flex;
     flex-direction: row;
-    margin: 100px 50px;
+    gap: 0.5em;
     flex-shrink: 1;
     justify-content: center;
     font-size-adjust: auto;
