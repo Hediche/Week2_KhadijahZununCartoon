@@ -98,12 +98,12 @@ height: auto;
     display: flex;
     flex-direction: column;
     flex-shrink: 1;
-    gap: 2em;
+    gap: 1em;
   }
   .row{
     display: flex;
     flex-direction: row;
-    gap: 0.5em;
+    gap: 1em;
     flex-shrink: 1;
     justify-content: center;
     font-size-adjust: auto;
