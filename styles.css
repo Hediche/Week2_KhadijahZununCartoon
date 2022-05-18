@@ -62,8 +62,8 @@ height: auto;
 }
 .meskills{
   animation-name: rotate;
-  animation-duration: 0.7s;
-  animation-iteration-count: 10;
+  animation-duration: 0.3s;
+  animation-iteration-count: 100;
 }
 @keyframes rotate {
   0% {
@@ -79,14 +79,14 @@ height: auto;
   }
   @keyframes rotation {
     from {
-      transform: rotateY(0deg);
+      transform: rotate(0deg);
     }
     to {
-      transform: rotateY(359deg);
+      transform: rotate(359deg);
     }
   }
   .linear {
-    animation-timing-function:linear;
+    animation-timing-function:ease-out;
   }
   .infinite {
     animation-iteration-count: 10;
