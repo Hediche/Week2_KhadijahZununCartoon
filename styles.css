@@ -62,7 +62,7 @@ height: auto;
 }
 .meskills{
   animation-name: rotate;
-  animation-duration: 1s;
+  animation-duration: 2s;
   animation-iteration-count: 150;
  }
 @keyframes rotate {
